@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyowm = "*"
+pylint = "*"
+requests = "*"
+pytz = "*"
+autopep8 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
