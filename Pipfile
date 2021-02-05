@@ -9,6 +9,7 @@ pylint = "*"
 requests = "*"
 pytz = "*"
 autopep8 = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
