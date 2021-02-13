@@ -20,10 +20,16 @@ This app is designed to send weather forecast information for pre-selected city 
 
 # Requirements
 
+- Python 3.x
+- Telegram bot
+- Telegram chat id
+- OpenWeatherMap API key
+
 - pipenv
 - pyowm
 - requests
 - pytz
+- python-dotenv
 
 # Licence
 
