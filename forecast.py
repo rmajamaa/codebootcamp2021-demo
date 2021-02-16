@@ -68,7 +68,7 @@ for weather in weather_list[0:5]:
 
     # Sends the message at selected intervals (time in seconds), e.g one hour = 3600, three hours = 10800
     requests.get(telegram_bot_url)
-    time.sleep(10800)
+    time.sleep(60)
 
     # Continues the for loop until all five forecasts have been sent, then stop.
     continue
