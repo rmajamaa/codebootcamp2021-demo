@@ -57,7 +57,7 @@ for weather in weather_list[0:5]:
     rain = forecaster.most_rainy()
 
     # Collecting weather forecast information to be sent to Telegram
-    weather_message = ('Hello, Risto! Here is the weather forecast for the next few hours:' f'\n{my_timezone_finland.strftime(' % d-%m-%Y % H: % M: % S')}' +
+    weather_message = ('Hello, Risto! Here is the weather forecast for the next few hours:' f'\n{my_timezone_finland.strftime("%d-%m-%Y %H:%M:%S")}' +
                        f'\nTemperature: {temp}{degree_sign}C' + f'\nFeels Like: {feels_like}{degree_sign}C' + f'\nWeather description: {detailed_status}' +
                        f'\nWind speed: {wind_speed} m/s' + f'\nWind direction: {wind_direction_text}' + f'\nSnowfall: {snow}' + f'\nRain: {rain}')
 
@@ -68,7 +68,7 @@ for weather in weather_list[0:5]:
 
     # Sends the message at selected intervals (time in seconds), e.g one hour = 3600, three hours = 10800
     requests.get(telegram_bot_url)
-    time.sleep(60)
+    time.sleep(10800)
 
     # Continues the for loop until all five forecasts have been sent, then stop.
     continue
