@@ -1,12 +1,12 @@
 # About codebootcamp2021-demo
 
-This is a repository for hosting the demo application created as part of the Code Bootcamp 2021 course.
+This is a repository for hosting the demo program created as part of the Code Bootcamp 2021 course.
 
-The purpose of this demo application is to demonstrate the skills learned so far on this course and how the course participant is able to utilize these skills by independenly building a working application.
+The purpose of this demo program is to demonstrate the skills learned so far on this course and how the course participant is able to utilize these skills by independenly building a working program.
 
-# About Forecast app
+# About forecast.py program
 
-This app is designed to send weather forecast information for pre-selected city at certain intervals through a Telegram bot.
+This program is designed to send weather forecast information for pre-selected city at 3-hour intervals through a Telegram bot. The program has been deployed to Heroko where Heroku Scheduler runs the program automatically every day starting at 05:00 UTC.
 
 # Learning points
 
@@ -30,6 +30,15 @@ This app is designed to send weather forecast information for pre-selected city 
 - requests
 - pytz
 - python-dotenv
+
+# How to get started?
+
+1. Register at https://openweathermap.org/api in order to obtain your personal API key
+2. Install Telegram and talk to the BotFather in order to create your own Bot. You will also need to find your Telegram chat id. Information at https://core.telegram.org/bots will get you started.
+
+# Author
+
+Risto Majamaa
 
 # Licence
 
