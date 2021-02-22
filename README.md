@@ -8,7 +8,13 @@ The purpose of this demo program is to demonstrate the skills learned so far on 
 
 This program is designed to send weather forecast information for pre-selected city at 3-hour intervals through a Telegram bot. The program has been deployed to Heroko where Heroku Scheduler runs the program automatically every day starting at 05:00 UTC.
 
+# To do -list
+
+1. The current program code is still the raw version and needs to be refractored. See changelog for future version updates
+
 # Learning points
+
+Whilst working on this demo program, I have learned about:
 
 1. Basic Python programming
 2. OpenWeatherMap API
@@ -16,7 +22,7 @@ This program is designed to send weather forecast information for pre-selected c
 4. PyOWM Python wrapper library for OpenWeatherMap APIs
 5. Pytz library for working with different timezones
 6. GitHub
-7. Heroku
+7. Heroku deployment
 
 # Requirements
 
